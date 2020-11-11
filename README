@@ -1,0 +1,6 @@
+# Run
+
+```
+$ nasm -f bin -o boot_sect.bin boot_sect.asm
+$ qemu-system-x86_64 boot_sect.bin
+```

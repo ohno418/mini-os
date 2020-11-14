@@ -1,8 +1,8 @@
 # Run
 
 ```
-$ nasm -f bin -o boot_sect.bin boot_sect.asm
-$ qemu-system-x86_64 boot_sect.bin
+$ nasm -f bin -o print_to_screen.bin print_to_screen.asm
+$ qemu-system-x86_64 print_to_screen.bin
 ```
 
 # Reference

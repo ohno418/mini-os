@@ -2,7 +2,7 @@
 ; A simple boot sector that prints a message to the screen using a BIOS routine.
 ;
 
-; indicate tele-type mode.
+; tele-type mode.
 mov ah, 0x0e
 
 mov al, 'h'

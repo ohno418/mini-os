@@ -13,9 +13,15 @@ call print_new_line
 mov bx, GOODBYE_MSG
 call print_string
 
+call print_new_line
+
+mov dx, 0x7d1b
+call print_hex
+
 jmp $ ; Hang
 
 %include "print_string.asm"
+%include "print_hex.asm"
 
 ; Data
 HELLO_MSG:

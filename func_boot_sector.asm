@@ -15,7 +15,7 @@ call print_string
 
 call print_new_line
 
-mov dx, 0x7d1b
+mov dx, 0x0d7b
 call print_hex
 
 jmp $ ; Hang

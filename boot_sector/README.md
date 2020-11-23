@@ -1,8 +1,8 @@
 # Run
 
 ```
-$ nasm -f bin -o print_to_screen.bin print_to_screen.asm
-$ qemu-system-x86_64 print_to_screen.bin
+$ nasm -f bin -o target.bin target.asm
+$ qemu-system-x86_64 target.bin
 ```
 
 # Reference

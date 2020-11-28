@@ -4,7 +4,7 @@
 ; Requirement:
 ;   - DL    = drive number
 ;   - DH    = how many sectors to read
-;   - ES:BX = pointer to buffer
+;   - ES:BX = pointer to buffer (segment ES with offset BX)
 
 disk_load:
     ; Store DX on the stack, to recall
